@@ -1,0 +1,6 @@
+module Pods_Musmarks {
+  umbrella header "Pods-Musmarks-umbrella.h"
+
+  export *
+  module * { export * }
+}

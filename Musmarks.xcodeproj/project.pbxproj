@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201B2C5F51E532870ADD1683 /* libPods-MusmarksUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E27BC93EA74FBCB0D6F8FE8 /* libPods-MusmarksUITests.a */; };
+		44C829972C96C485398EEEBF /* libPods-Musmarks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D968B48CFFC522B9FE1FB8E4 /* libPods-Musmarks.a */; };
+		67597F395B4F137B6F4BDDBA /* libPods-MusmarksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CFF01153AACC5733AA5A98 /* libPods-MusmarksTests.a */; };
 		D44D38AC22C3497F004D2396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D38AB22C3497F004D2396 /* AppDelegate.swift */; };
 		D44D38AE22C3497F004D2396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D38AD22C3497F004D2396 /* ViewController.swift */; };
 		D44D38B122C3497F004D2396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D38AF22C3497F004D2396 /* Main.storyboard */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47CFF01153AACC5733AA5A98 /* libPods-MusmarksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusmarksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623A74459E186A1FA0492F72 /* Pods-Musmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musmarks.debug.xcconfig"; path = "Target Support Files/Pods-Musmarks/Pods-Musmarks.debug.xcconfig"; sourceTree = "<group>"; };
+		84F66EAB11BD0E02E5C885B4 /* Pods-MusmarksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusmarksUITests.debug.xcconfig"; path = "Target Support Files/Pods-MusmarksUITests/Pods-MusmarksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E27BC93EA74FBCB0D6F8FE8 /* libPods-MusmarksUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusmarksUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		903DCD5DAE3445338D3F1C3E /* Pods-MusmarksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusmarksTests.debug.xcconfig"; path = "Target Support Files/Pods-MusmarksTests/Pods-MusmarksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91A7421E6A1C8C8E1F35D0E1 /* Pods-MusmarksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusmarksTests.release.xcconfig"; path = "Target Support Files/Pods-MusmarksTests/Pods-MusmarksTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9F41FB5FC1FA2FC0FC7D12C /* Pods-Musmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musmarks.release.xcconfig"; path = "Target Support Files/Pods-Musmarks/Pods-Musmarks.release.xcconfig"; sourceTree = "<group>"; };
 		D44D38A822C3497F004D2396 /* Musmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44D38AB22C3497F004D2396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44D38AD22C3497F004D2396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		D44D38CA22C3497F004D2396 /* MusmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44D38CE22C3497F004D2396 /* MusmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusmarksUITests.swift; sourceTree = "<group>"; };
 		D44D38D022C3497F004D2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D968B48CFFC522B9FE1FB8E4 /* libPods-Musmarks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Musmarks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D076EB988874C8306E9735 /* Pods-MusmarksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusmarksUITests.release.xcconfig"; path = "Target Support Files/Pods-MusmarksUITests/Pods-MusmarksUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C829972C96C485398EEEBF /* libPods-Musmarks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67597F395B4F137B6F4BDDBA /* libPods-MusmarksTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201B2C5F51E532870ADD1683 /* libPods-MusmarksUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C71F81D333B3B8D821E3D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D968B48CFFC522B9FE1FB8E4 /* libPods-Musmarks.a */,
+				47CFF01153AACC5733AA5A98 /* libPods-MusmarksTests.a */,
+				8E27BC93EA74FBCB0D6F8FE8 /* libPods-MusmarksUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		678F8D4F7C1A0FFF89D40DFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				623A74459E186A1FA0492F72 /* Pods-Musmarks.debug.xcconfig */,
+				B9F41FB5FC1FA2FC0FC7D12C /* Pods-Musmarks.release.xcconfig */,
+				903DCD5DAE3445338D3F1C3E /* Pods-MusmarksTests.debug.xcconfig */,
+				91A7421E6A1C8C8E1F35D0E1 /* Pods-MusmarksTests.release.xcconfig */,
+				84F66EAB11BD0E02E5C885B4 /* Pods-MusmarksUITests.debug.xcconfig */,
+				F2D076EB988874C8306E9735 /* Pods-MusmarksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D44D389F22C3497E004D2396 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				D44D38C222C3497F004D2396 /* MusmarksTests */,
 				D44D38CD22C3497F004D2396 /* MusmarksUITests */,
 				D44D38A922C3497F004D2396 /* Products */,
+				678F8D4F7C1A0FFF89D40DFB /* Pods */,
+				4C71F81D333B3B8D821E3D9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D44D38D322C3497F004D2396 /* Build configuration list for PBXNativeTarget "Musmarks" */;
 			buildPhases = (
+				0276BB5AF29ADB2E977D52B4 /* [CP] Check Pods Manifest.lock */,
 				D44D38A422C3497F004D2396 /* Sources */,
 				D44D38A522C3497F004D2396 /* Frameworks */,
 				D44D38A622C3497F004D2396 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D44D38D622C3497F004D2396 /* Build configuration list for PBXNativeTarget "MusmarksTests" */;
 			buildPhases = (
+				9D2E989AA3E14B82B2BD2A64 /* [CP] Check Pods Manifest.lock */,
 				D44D38BB22C3497F004D2396 /* Sources */,
 				D44D38BC22C3497F004D2396 /* Frameworks */,
 				D44D38BD22C3497F004D2396 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D44D38D922C3497F004D2396 /* Build configuration list for PBXNativeTarget "MusmarksUITests" */;
 			buildPhases = (
+				54B8DBF00458265743711B2B /* [CP] Check Pods Manifest.lock */,
 				D44D38C622C3497F004D2396 /* Sources */,
 				D44D38C722C3497F004D2396 /* Frameworks */,
 				D44D38C822C3497F004D2396 /* Resources */,
@@ -253,6 +297,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0276BB5AF29ADB2E977D52B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Musmarks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54B8DBF00458265743711B2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusmarksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D2E989AA3E14B82B2BD2A64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusmarksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D44D38A422C3497F004D2396 /* Sources */ = {
@@ -434,6 +547,7 @@
 		};
 		D44D38D422C3497F004D2396 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 623A74459E186A1FA0492F72 /* Pods-Musmarks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +565,7 @@
 		};
 		D44D38D522C3497F004D2396 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F41FB5FC1FA2FC0FC7D12C /* Pods-Musmarks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +583,7 @@
 		};
 		D44D38D722C3497F004D2396 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903DCD5DAE3445338D3F1C3E /* Pods-MusmarksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +604,7 @@
 		};
 		D44D38D822C3497F004D2396 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A7421E6A1C8C8E1F35D0E1 /* Pods-MusmarksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +625,7 @@
 		};
 		D44D38DA22C3497F004D2396 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F66EAB11BD0E02E5C885B4 /* Pods-MusmarksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +645,7 @@
 		};
 		D44D38DB22C3497F004D2396 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D076EB988874C8306E9735 /* Pods-MusmarksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
