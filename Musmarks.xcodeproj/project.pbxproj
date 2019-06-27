@@ -10,14 +10,21 @@
 		201B2C5F51E532870ADD1683 /* libPods-MusmarksUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E27BC93EA74FBCB0D6F8FE8 /* libPods-MusmarksUITests.a */; };
 		44C829972C96C485398EEEBF /* libPods-Musmarks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D968B48CFFC522B9FE1FB8E4 /* libPods-Musmarks.a */; };
 		67597F395B4F137B6F4BDDBA /* libPods-MusmarksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CFF01153AACC5733AA5A98 /* libPods-MusmarksTests.a */; };
+		D408BBB222C4835800570E13 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408BBB122C4835800570E13 /* SearchViewController.swift */; };
 		D44D38AC22C3497F004D2396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D38AB22C3497F004D2396 /* AppDelegate.swift */; };
-		D44D38AE22C3497F004D2396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D38AD22C3497F004D2396 /* ViewController.swift */; };
 		D44D38B122C3497F004D2396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D38AF22C3497F004D2396 /* Main.storyboard */; };
 		D44D38B422C3497F004D2396 /* Musmarks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D44D38B222C3497F004D2396 /* Musmarks.xcdatamodeld */; };
 		D44D38B622C3497F004D2396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44D38B522C3497F004D2396 /* Assets.xcassets */; };
 		D44D38B922C3497F004D2396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D38B722C3497F004D2396 /* LaunchScreen.storyboard */; };
 		D44D38C422C3497F004D2396 /* MusmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D38C322C3497F004D2396 /* MusmarksTests.swift */; };
 		D44D38CF22C3497F004D2396 /* MusmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D38CE22C3497F004D2396 /* MusmarksUITests.swift */; };
+		D4A8565622C35E490034E9EF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565522C35E490034E9EF /* LoginViewModel.swift */; };
+		D4A8565822C360690034E9EF /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565722C360690034E9EF /* TimelineViewController.swift */; };
+		D4A8565A22C360B00034E9EF /* TimelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565922C360B00034E9EF /* TimelineViewModel.swift */; };
+		D4A8565C22C45B760034E9EF /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565B22C45B760034E9EF /* WebService.swift */; };
+		D4A8565E22C45B920034E9EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565D22C45B920034E9EF /* User.swift */; };
+		D4A8566022C45F100034E9EF /* PostTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565F22C45F100034E9EF /* PostTableView.swift */; };
+		D4DA252B22C34FCA00FCF185 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DA252A22C34FCA00FCF185 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +52,9 @@
 		903DCD5DAE3445338D3F1C3E /* Pods-MusmarksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusmarksTests.debug.xcconfig"; path = "Target Support Files/Pods-MusmarksTests/Pods-MusmarksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		91A7421E6A1C8C8E1F35D0E1 /* Pods-MusmarksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusmarksTests.release.xcconfig"; path = "Target Support Files/Pods-MusmarksTests/Pods-MusmarksTests.release.xcconfig"; sourceTree = "<group>"; };
 		B9F41FB5FC1FA2FC0FC7D12C /* Pods-Musmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musmarks.release.xcconfig"; path = "Target Support Files/Pods-Musmarks/Pods-Musmarks.release.xcconfig"; sourceTree = "<group>"; };
+		D408BBB122C4835800570E13 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D44D38A822C3497F004D2396 /* Musmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44D38AB22C3497F004D2396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D44D38AD22C3497F004D2396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D44D38B022C3497F004D2396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D44D38B322C3497F004D2396 /* Musmarks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Musmarks.xcdatamodel; sourceTree = "<group>"; };
 		D44D38B522C3497F004D2396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +66,13 @@
 		D44D38CA22C3497F004D2396 /* MusmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44D38CE22C3497F004D2396 /* MusmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusmarksUITests.swift; sourceTree = "<group>"; };
 		D44D38D022C3497F004D2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A8565522C35E490034E9EF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D4A8565722C360690034E9EF /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		D4A8565922C360B00034E9EF /* TimelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewModel.swift; sourceTree = "<group>"; };
+		D4A8565B22C45B760034E9EF /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		D4A8565D22C45B920034E9EF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D4A8565F22C45F100034E9EF /* PostTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableView.swift; sourceTree = "<group>"; };
+		D4DA252A22C34FCA00FCF185 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D968B48CFFC522B9FE1FB8E4 /* libPods-Musmarks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Musmarks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D076EB988874C8306E9735 /* Pods-MusmarksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusmarksUITests.release.xcconfig"; path = "Target Support Files/Pods-MusmarksUITests/Pods-MusmarksUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +125,6 @@
 				84F66EAB11BD0E02E5C885B4 /* Pods-MusmarksUITests.debug.xcconfig */,
 				F2D076EB988874C8306E9735 /* Pods-MusmarksUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,8 +154,15 @@
 			isa = PBXGroup;
 			children = (
 				D44D38AB22C3497F004D2396 /* AppDelegate.swift */,
-				D44D38AD22C3497F004D2396 /* ViewController.swift */,
 				D44D38AF22C3497F004D2396 /* Main.storyboard */,
+				D4DA252A22C34FCA00FCF185 /* LoginViewController.swift */,
+				D4A8565522C35E490034E9EF /* LoginViewModel.swift */,
+				D4A8565722C360690034E9EF /* TimelineViewController.swift */,
+				D4A8565922C360B00034E9EF /* TimelineViewModel.swift */,
+				D4A8565F22C45F100034E9EF /* PostTableView.swift */,
+				D408BBB122C4835800570E13 /* SearchViewController.swift */,
+				D4A8565B22C45B760034E9EF /* WebService.swift */,
+				D4A8565D22C45B920034E9EF /* User.swift */,
 				D44D38B522C3497F004D2396 /* Assets.xcassets */,
 				D44D38B722C3497F004D2396 /* LaunchScreen.storyboard */,
 				D44D38BA22C3497F004D2396 /* Info.plist */,
@@ -372,9 +392,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44D38AE22C3497F004D2396 /* ViewController.swift in Sources */,
+				D408BBB222C4835800570E13 /* SearchViewController.swift in Sources */,
+				D4A8565622C35E490034E9EF /* LoginViewModel.swift in Sources */,
+				D4A8565A22C360B00034E9EF /* TimelineViewModel.swift in Sources */,
+				D4A8565C22C45B760034E9EF /* WebService.swift in Sources */,
+				D4DA252B22C34FCA00FCF185 /* LoginViewController.swift in Sources */,
+				D4A8565E22C45B920034E9EF /* User.swift in Sources */,
+				D4A8566022C45F100034E9EF /* PostTableView.swift in Sources */,
 				D44D38AC22C3497F004D2396 /* AppDelegate.swift in Sources */,
 				D44D38B422C3497F004D2396 /* Musmarks.xcdatamodeld in Sources */,
+				D4A8565822C360690034E9EF /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
