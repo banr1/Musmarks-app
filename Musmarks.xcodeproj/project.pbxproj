@@ -15,6 +15,8 @@
 		D408BBB622C499ED00570E13 /* TImelineNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408BBB522C499ED00570E13 /* TImelineNavigationController.swift */; };
 		D408BBB822C4B1F600570E13 /* QueryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408BBB722C4B1F600570E13 /* QueryTableViewCell.swift */; };
 		D408BBBA22C4B42D00570E13 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408BBB922C4B42D00570E13 /* SearchViewModel.swift */; };
+		D408BBBC22C5DBF100570E13 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408BBBB22C5DBF100570E13 /* AccountViewController.swift */; };
+		D408BBBE22C5E29200570E13 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408BBBD22C5E29200570E13 /* Store.swift */; };
 		D44D38AC22C3497F004D2396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D38AB22C3497F004D2396 /* AppDelegate.swift */; };
 		D44D38B122C3497F004D2396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44D38AF22C3497F004D2396 /* Main.storyboard */; };
 		D44D38B422C3497F004D2396 /* Musmarks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D44D38B222C3497F004D2396 /* Musmarks.xcdatamodeld */; };
@@ -27,7 +29,7 @@
 		D4A8565A22C360B00034E9EF /* TimelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565922C360B00034E9EF /* TimelineViewModel.swift */; };
 		D4A8565C22C45B760034E9EF /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565B22C45B760034E9EF /* WebService.swift */; };
 		D4A8565E22C45B920034E9EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565D22C45B920034E9EF /* User.swift */; };
-		D4A8566022C45F100034E9EF /* PostTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565F22C45F100034E9EF /* PostTableView.swift */; };
+		D4A8566022C45F100034E9EF /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8565F22C45F100034E9EF /* PostTableViewCell.swift */; };
 		D4DA252B22C34FCA00FCF185 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DA252A22C34FCA00FCF185 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,8 @@
 		D408BBB522C499ED00570E13 /* TImelineNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImelineNavigationController.swift; sourceTree = "<group>"; };
 		D408BBB722C4B1F600570E13 /* QueryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryTableViewCell.swift; sourceTree = "<group>"; };
 		D408BBB922C4B42D00570E13 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		D408BBBB22C5DBF100570E13 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		D408BBBD22C5E29200570E13 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		D44D38A822C3497F004D2396 /* Musmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44D38AB22C3497F004D2396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44D38B022C3497F004D2396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,7 +83,7 @@
 		D4A8565922C360B00034E9EF /* TimelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewModel.swift; sourceTree = "<group>"; };
 		D4A8565B22C45B760034E9EF /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		D4A8565D22C45B920034E9EF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D4A8565F22C45F100034E9EF /* PostTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableView.swift; sourceTree = "<group>"; };
+		D4A8565F22C45F100034E9EF /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		D4DA252A22C34FCA00FCF185 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D968B48CFFC522B9FE1FB8E4 /* libPods-Musmarks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Musmarks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D076EB988874C8306E9735 /* Pods-MusmarksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusmarksUITests.release.xcconfig"; path = "Target Support Files/Pods-MusmarksUITests/Pods-MusmarksUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,12 +173,14 @@
 				D4A8565522C35E490034E9EF /* LoginViewModel.swift */,
 				D4A8565722C360690034E9EF /* TimelineViewController.swift */,
 				D4A8565922C360B00034E9EF /* TimelineViewModel.swift */,
-				D4A8565F22C45F100034E9EF /* PostTableView.swift */,
+				D4A8565F22C45F100034E9EF /* PostTableViewCell.swift */,
 				D408BBB122C4835800570E13 /* SearchViewController.swift */,
 				D408BBB922C4B42D00570E13 /* SearchViewModel.swift */,
 				D408BBB722C4B1F600570E13 /* QueryTableViewCell.swift */,
+				D408BBBB22C5DBF100570E13 /* AccountViewController.swift */,
 				D4A8565B22C45B760034E9EF /* WebService.swift */,
 				D4A8565D22C45B920034E9EF /* User.swift */,
+				D408BBBD22C5E29200570E13 /* Store.swift */,
 				D44D38B522C3497F004D2396 /* Assets.xcassets */,
 				D44D38B722C3497F004D2396 /* LaunchScreen.storyboard */,
 				D44D38BA22C3497F004D2396 /* Info.plist */,
@@ -407,14 +413,16 @@
 				D408BBB622C499ED00570E13 /* TImelineNavigationController.swift in Sources */,
 				D408BBB222C4835800570E13 /* SearchViewController.swift in Sources */,
 				D4A8565622C35E490034E9EF /* LoginViewModel.swift in Sources */,
+				D408BBBE22C5E29200570E13 /* Store.swift in Sources */,
 				D408BBB422C496D900570E13 /* MainTabBarController.swift in Sources */,
 				D4A8565A22C360B00034E9EF /* TimelineViewModel.swift in Sources */,
 				D4A8565C22C45B760034E9EF /* WebService.swift in Sources */,
 				D4DA252B22C34FCA00FCF185 /* LoginViewController.swift in Sources */,
 				D4A8565E22C45B920034E9EF /* User.swift in Sources */,
 				D408BBBA22C4B42D00570E13 /* SearchViewModel.swift in Sources */,
-				D4A8566022C45F100034E9EF /* PostTableView.swift in Sources */,
+				D4A8566022C45F100034E9EF /* PostTableViewCell.swift in Sources */,
 				D44D38AC22C3497F004D2396 /* AppDelegate.swift in Sources */,
+				D408BBBC22C5DBF100570E13 /* AccountViewController.swift in Sources */,
 				D408BBB822C4B1F600570E13 /* QueryTableViewCell.swift in Sources */,
 				D44D38B422C3497F004D2396 /* Musmarks.xcdatamodeld in Sources */,
 				D4A8565822C360690034E9EF /* TimelineViewController.swift in Sources */,

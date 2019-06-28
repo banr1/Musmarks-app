@@ -6,9 +6,9 @@ protocol LoginViewModelDelegate: class {
 
 final class LoginViewModel {
     weak var delegate: LoginViewModelDelegate!
-    private var username: String?
     
-    func usernameTextFieldValueChanged(to value: String?) {
-        username = value
+    func setUsername(asUsername username: String?) {
+        guard let username = username else { return }
+        Store.shared.username = "@" + username
     }
 }
