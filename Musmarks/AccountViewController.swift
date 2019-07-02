@@ -7,7 +7,7 @@ class AccountViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        accountImage.image = UIImage(named: "@Banri")
+        accountImage.image = UIImage(named: Store.shared.username)
         usernameLabel.text = Store.shared.username
     }
 }

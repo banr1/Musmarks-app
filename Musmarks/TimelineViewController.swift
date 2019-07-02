@@ -41,9 +41,9 @@ class TimelineViewController: UITableViewController {
         tableView.estimatedRowHeight = 100.0
     }
     
-    @IBAction func didTapAddButton(_ sender: Any) {
-        viewModel.addPost()
-    }
+//    @IBAction func didTapAddButton(_ sender: Any) {
+//        viewModel.addPost()
+//    }
     
     @IBAction func refreshTable(_ sender: Any) {
         tableView.reloadData()

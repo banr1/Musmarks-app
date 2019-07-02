@@ -19,9 +19,49 @@ final class SearchViewModel {
             artistImage: UIImage(named: "music1-2")!
         ),
         QueryTableCellModel(
+            artistText: "Artist1",
+            musicText: "Music1-3",
+            artistImage: UIImage(named: "music1-3")!
+        ),
+        QueryTableCellModel(
+            artistText: "Artist1",
+            musicText: "Music1-4",
+            artistImage: UIImage(named: "music1-4")!
+        ),
+        QueryTableCellModel(
+            artistText: "Artist1",
+            musicText: "Music1-5",
+            artistImage: UIImage(named: "music1-5")!
+        ),
+        QueryTableCellModel(
+            artistText: "Artist1",
+            musicText: "Music1-6",
+            artistImage: UIImage(named: "music1-6")!
+        ),
+        QueryTableCellModel(
+            artistText: "Artist1",
+            musicText: "Music1-7",
+            artistImage: UIImage(named: "music1-7")!
+        ),
+        QueryTableCellModel(
+            artistText: "Artist1",
+            musicText: "Music1-8",
+            artistImage: UIImage(named: "music1-8")!
+        ),
+        QueryTableCellModel(
+            artistText: "Artist1",
+            musicText: "Music1-9",
+            artistImage: UIImage(named: "music1-9")!
+        ),
+        QueryTableCellModel(
             artistText: "Artist2",
             musicText: "Music2-1",
             artistImage: UIImage(named: "music2-1")!
+        ),
+        QueryTableCellModel(
+            artistText: "Artist2",
+            musicText: "Music2-2",
+            artistImage: UIImage(named: "music2-2")!
         ),
         QueryTableCellModel(
             artistText: "Artist3",

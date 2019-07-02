@@ -1,7 +1,7 @@
 import Foundation
 
 protocol LoginViewModelDelegate: class {
-    func hoge()
+    func enableLoginButton(_ enable: Bool)
 }
 
 final class LoginViewModel {
@@ -10,5 +10,13 @@ final class LoginViewModel {
     func setUsername(asUsername username: String?) {
         guard let username = username else { return }
         Store.shared.username = "@" + username
+    }
+    
+    func textFieldEditingDidEnd(_ text: String?) {
+        if let text = text, !text.isEmpty {
+            delegate.enableLoginButton(true)
+        } else {
+            delegate.enableLoginButton(false)
+        }
     }
 }

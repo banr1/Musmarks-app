@@ -40,15 +40,15 @@ final class TimelineViewModel {
         )
     ]
     
-    func addPost() {
-        self.postCellsModels.append(
-            PostTableCellModel(
-                usernameText: Store.shared.username,
-                musicText: "Artist4 / Music4-1",
-                commentText: "おしゃれ!",
-                artistImage: UIImage(named: "music4-1")!
-            )
-        )
-        self.delegate.reloadTable()
-    }
+//    func addPost() {
+//        self.postCellsModels.append(
+//            PostTableCellModel(
+//                usernameText: Store.shared.username,
+//                musicText: "Artist4 / Music4-1",
+//                commentText: "おしゃれ!",
+//                artistImage: UIImage(named: "music4-1")!
+//            )
+//        )
+//        self.delegate.reloadTable()
+//    }
 }
